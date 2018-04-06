@@ -2,7 +2,7 @@
 # Make sure your battery is not connected if you are going to calibrate it at first.
 # Since you are testing your motor, I hope you don't have your propeller attached to it otherwise you are in trouble my friend...?
 # This program is made by AGT @instructable.com. DO NOT REPUBLISH THIS PROGRAM... actually the program itself is harmful                                             pssst Its not, its safe.
-
+# This program was altered to test 4 motors at the same time. All credit still goes to AGT however. 
 import os     #importing os library so as to communicate with the system
 import time   #importing time library to make Rpi wait because its too impatient 
 os.system ("sudo pigpiod") #Launching GPIO library
